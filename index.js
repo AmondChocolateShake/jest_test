@@ -1,9 +1,4 @@
 function factorial(n) {
-
-    if(n<0){
-        throw new Error("Factorial of negative numbers is not defined");
-    }
-
     if(n===0){
         return 1;
     }
